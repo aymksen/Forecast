@@ -1,0 +1,12 @@
+{
+  "files": {
+    "main.css": "/tweather/static/css/main.31d6cfe0.css",
+    "main.js": "/tweather/static/js/main.b5b7d1a7.js",
+    "index.html": "/tweather/index.html",
+    "main.b5b7d1a7.js.map": "/tweather/static/js/main.b5b7d1a7.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.31d6cfe0.css",
+    "static/js/main.b5b7d1a7.js"
+  ]
+}
