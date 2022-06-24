@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+*{
+    --col1: #e92907;
+    --col2: #d8771d;
+    --col3: #06b6d4;
+    --col4: #1D4ED8;
+    --col5: #7d98d3;
+    --col6: #031853;
+    
+}
+@layer base{
+    html{
+        font-family: 'Poppins', sans-serif;
+    }
+    .ff{
+        
+      overflow: hidden;
+      position: relative ;         
+  }
+ 
+   
+    #color-blue{
+        background: linear-gradient(to bottom right, var(--col5) ,var(--col6));
+        position: absolute ;
+        z-index: -1;
+        height: 100%;
+        width: 100%;
+        left:0;
+        top:0;
+        z-index: -100;
+         }
+         #Cloud{Display:none;z-index: -100}
+         #Cloude{height: 100%;Display:none;z-index: -100}
+         #Snow{display:none;z-index: -100}
+         .rain{
+          color:red;
+         }
+      
+}
