@@ -24,7 +24,7 @@
  
    
     #color-blue{
-        background: linear-gradient(to bottom right, var(--col5) ,var(--col6));
+        background: linear-gradient(to bottom right, var(--col3) ,var(--col4));
         position: absolute ;
         z-index: -1;
         height: 100%;

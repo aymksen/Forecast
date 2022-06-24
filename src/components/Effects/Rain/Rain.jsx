@@ -1,8 +1,8 @@
 import React from 'react'
 import './rain.css';
-import { useState } from 'react';
 
-//import index from '../../../../public/home'
+
+//import home from "./home"
 
 
 
@@ -10,12 +10,8 @@ function Rain() {
 
   
   return (
-    <body class="thunder">
-  <canvas id="canvas1"></canvas>
-  <canvas id="canvas2"></canvas>
-  <canvas id="canvas3"></canvas>
-  
-</body>
+<div class="rain"></div>
+
   )
 }
 
