@@ -2,7 +2,7 @@ import React from 'react'
 import './rain.css';
 import { useState } from 'react';
 
-//import index from './index'
+//import index from '../../../../public/home'
 
 
 

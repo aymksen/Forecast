@@ -190,12 +190,12 @@ function init() {
 }
 init();
 
-function animloop() {
+function Animloop() {
   animateRainTrough();
   animateRain();
   animateLightning();
-  requestAnimationFrame(animloop);
+  requestAnimationFrame(Animloop);
   
 }
 
-animloop();
+Animloop();

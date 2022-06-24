@@ -15,7 +15,7 @@ function App() {
     <div className='mx-auto max-w-screen-md mt-4 py-5 px-32  h-fit shadow-xl shadow-black-400 ff'>
       <div id="color-blue">
       
-      {/* <div id="Cloud"><Cloud/><Cloud2/></div>
+      {/* <div id="Cloud"><Cloud/></div>
       <div id="Cloude"><Cloud2/></div>
         <div id="Snow"><Snow/></div> */}
         
