@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/tweather/static/css/main.6d4e0900.css",
+    "main.css": "/tweather/static/css/main.df3b0905.css",
     "main.js": "/tweather/static/js/main.d8ea8fa5.js",
     "index.html": "/tweather/index.html",
-    "main.6d4e0900.css.map": "/tweather/static/css/main.6d4e0900.css.map",
+    "main.df3b0905.css.map": "/tweather/static/css/main.df3b0905.css.map",
     "main.d8ea8fa5.js.map": "/tweather/static/js/main.d8ea8fa5.js.map"
   },
   "entrypoints": [
-    "static/css/main.6d4e0900.css",
+    "static/css/main.df3b0905.css",
     "static/js/main.d8ea8fa5.js"
   ]
 }
