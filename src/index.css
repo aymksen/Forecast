@@ -6,13 +6,16 @@
 *{
     --col1: #e92907;
     --col2: #d8771d;
+
     --col3: #06b6d4;
     --col4: #1D4ED8;
+    
     --col5: #7d98d3;
     --col6: #031853;
 
     --col7: #405fa3;
     --col8: #041647;
+
     --col9: #000000;
     --col10: #141127;
     
@@ -25,8 +28,23 @@
         overflow: hidden;
         position: relative ;         
     }
-    .bkg{
+    .col1{
+        background: linear-gradient(to bottom right, var(--col1) ,var(--col2));
+    }
+    .col2{
+        background: linear-gradient(to bottom right, var(--col3) ,var(--col4));
+    }
+    .col3{
+        background: linear-gradient(to bottom right, var(--col5) ,var(--col6));
+    }
+    .col4{
+        background: linear-gradient(to bottom right, var(--col7) ,var(--col8));
+    }
+    .col5{
         background: linear-gradient(to bottom right, var(--col9) ,var(--col10));
+    }
+    .bkg{
+        
         filter: blur(2px);
         width:100vw;
         height:100vh;
@@ -34,8 +52,7 @@
         position:absolute;
 
     }
-    #color-blue{
-        background: linear-gradient(to bottom right, var(--col9) ,var(--col10));
+    .color-blue{
         position: absolute ;
         z-index: -1;
         height: 100%;

@@ -22,28 +22,46 @@ function App() {
   useEffect(() => {
     const fetchWeather = async () => {
       await getFormattedWeatherData({ ...query, units }).then((data) => {
+        
         setWeather(data);
+        //console.log(data);
+        //console.log(weather.icon);
+        console.log((weather.icon).includes('n')); 
+        
       });
     };
-
+    
     fetchWeather();
   }, [query, units]);
 
+  const formatBackground = () =>{
+    if(!weather) return <div/>
+    if(weather.details === "Clouds") return <Cloud/> 
+    if(weather.details === "Clear") return <Sunny /> 
+    if(weather.details === "Snow") return <Snow />
+    if(weather.details === "Haze") return <Cloud2/>
+  }
+  
+  const formatBackgrounds = () =>{
+    
+    if(!weather) return "col2"
+    const threshold = units === "metric" ? 30 : 88
+    
+    if(weather.temp <= threshold && (weather.icon).includes('d')) return "col2"
+    if(weather.temp >= threshold && (weather.icon).includes('d')) return "col1"
+    if(!(weather.icon).includes('d')) return "col5"
+  }
+
+  
+
   return (
     <div className="m-0 p-0">
-      <div className="bkg">
-        <Cloud />{" "}
+      <div className={`bkg ${formatBackgrounds()}`}>
+      <div>{formatBackground()}</div>
       </div>
       <div className="mx-auto py-8 max-w-screen-md px-32  h-fit shadow-xl shadow-black-400 ff">
-        <div id="color-blue">
-          {/* <div id="Cloud"></div>
-      <div id="Cloude"><Cloud2/></div>
-        <div id="Snow"><Snow/></div>
-        <Rain/> 
-        <Sunny />
-          <Snow/> 
-        */}
-          <Cloud />
+        <div className={`color-blue ${formatBackgrounds()}`}>
+          <div>{formatBackground()}</div>
         </div>
 
         <TopButton setQuery={setQuery} />

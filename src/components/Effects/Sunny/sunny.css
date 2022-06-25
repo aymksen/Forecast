@@ -1,6 +1,6 @@
 .sun { 
   position: absolute;
-	top:0;
+	top:-50%;
 	left:70%;
 	right:0;
 	bottom:0;
@@ -8,9 +8,9 @@
 	width:70px;
 	height:70px;
 	border-radius:50%;	
-	background:rgb(255, 239, 96);
+	background:rgb(255, 255, 255);
 	opacity:0.9;			
-	box-shadow: 0px 0px 40px 15px rgb(255, 235, 145);  
+	box-shadow: 0px 0px 40px 15px rgb(255, 255, 255);  
 }
 
 .ray_box {
@@ -30,7 +30,7 @@
     margin-left:10px;
     border-radius:80% 80% 0 0;
     position:absolute;
-    opacity:0.17;
+    opacity:0.02;
 }
 
 .ray1 {    

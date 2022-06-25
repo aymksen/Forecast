@@ -13,7 +13,12 @@ function Inputs({ setQuery, units, setUnits }) {
   const handleSearchClick = () => {
     if (city !== "") setQuery({ q: city });
   };
-
+  const search = evt => {
+    if (evt.key === "Enter"){
+      if (city !== "") ;
+      setQuery({ q: city });
+    };
+  };
   const handleLocationClick = () => {
     if (navigator.geolocation) {
       navigator.geolocation.getCurrentPosition((position) => {
@@ -35,6 +40,7 @@ function Inputs({ setQuery, units, setUnits }) {
         <input
           value={city}
           onChange={(e) => setCity(e.currentTarget.value)}
+          onKeyPress={search}
           type="text"
           placeholder="Enter a city..."
           className="text-x1 font-light p-2 w-full shadow-xl focus:outline-none capitalize"
