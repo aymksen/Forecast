@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/tweather/static/css/main.ec510596.css",
-    "main.js": "/tweather/static/js/main.d6bbc016.js",
+    "main.css": "/tweather/static/css/main.4a7c6e35.css",
+    "main.js": "/tweather/static/js/main.5d150c21.js",
     "static/media/rain1.png": "/tweather/static/media/rain1.ee51eacd2ac8452d359f.png",
     "index.html": "/tweather/index.html",
-    "main.ec510596.css.map": "/tweather/static/css/main.ec510596.css.map",
-    "main.d6bbc016.js.map": "/tweather/static/js/main.d6bbc016.js.map"
+    "main.4a7c6e35.css.map": "/tweather/static/css/main.4a7c6e35.css.map",
+    "main.5d150c21.js.map": "/tweather/static/js/main.5d150c21.js.map"
   },
   "entrypoints": [
-    "static/css/main.ec510596.css",
-    "static/js/main.d6bbc016.js"
+    "static/css/main.4a7c6e35.css",
+    "static/js/main.5d150c21.js"
   ]
 }
