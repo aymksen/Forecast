@@ -13,16 +13,21 @@ import Sunny from './components/Effects/Sunny/Sunny';
 
 function App() {
   return (
-    <div className='mx-auto max-w-screen-md mt-4 py-5 px-32  h-fit shadow-xl shadow-black-400 ff'>
+    <div className='m-0 p-0'>
+    <div className='bkg'><Rain/> </div>
+    <div className='mx-auto max-w-screen-md  py-5  px-32  h-fit shadow-xl shadow-black-400 ff'>
       
       <div id="color-blue">
-      <Sunny />
-      {/* <div id="Cloud"><Cloud/></div>
+      
+      {/* <div id="Cloud"></div>
       <div id="Cloude"><Cloud2/></div>
         <div id="Snow"><Snow/></div>
-        <Rain/> */}
+        <Rain/> 
+        <Sunny />
+          <Snow/> 
+        */}
+  <Cloud/>
 
-          <Rain/>
         </div>
         
     <TopButton />
@@ -31,6 +36,7 @@ function App() {
     <TimeAndLocation />
     <TemperatueAndDetails />
     
+    </div>
     </div>
   );
 }

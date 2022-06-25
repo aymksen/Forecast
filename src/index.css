@@ -10,6 +10,9 @@
     --col4: #1D4ED8;
     --col5: #7d98d3;
     --col6: #031853;
+
+    --col7: #405fa3;
+    --col8: #041647;
     
 }
 @layer base{
@@ -17,21 +20,24 @@
         font-family: 'Poppins', sans-serif;
     }
     .ff{
-        
-      overflow: hidden;
-      position: relative ;         
-  }
- 
-   
+        overflow: hidden;
+        position: relative ;         
+    }
+    .bkg{
+        filter: blur(2px);
+        width:100vw;
+        height:100vh;
+        z-index: -120;
+        position:absolute;
+
+    }
     #color-blue{
-        background: linear-gradient(to bottom right, var(--col3) ,var(--col4));
+        background: linear-gradient(to bottom right, var(--col7) ,var(--col8));
         position: absolute ;
         z-index: -1;
         height: 100%;
         width: 100%;
         left:0;
-        top:0;
-        z-index: -100;
          }
          #Cloud{Display:none;z-index: -100}
          #Cloude{height: 100%;Display:none;z-index: -100}

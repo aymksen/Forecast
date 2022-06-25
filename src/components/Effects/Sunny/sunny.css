@@ -25,90 +25,86 @@
   animation: ray_anim 60s linear infinite;
 }
 .ray {  
-    background: -webkit-linear-gradient(90deg, rgba(255,255,255,0) 0%, rgba(255, 255, 255, 0.8) 50%, rgba(255,255,255,0) 100%);
-		background: linear-gradient(180deg , rgba(255,255,255,0) 0%, rgba(254, 255, 173, 0.8) 50%, rgba(255,255,255,0) 100%); 
+    
+	background: linear-gradient(180deg , rgba(255,255,255,0) 0%, rgba(254, 255, 173, 0.8) 50%, rgba(255,255,255,0) 100%); 
     margin-left:10px;
     border-radius:80% 80% 0 0;
     position:absolute;
-    opacity:0.07;
+    opacity:0.17;
 }
 
 .ray1 {    
     height:170px;
     width:30px;
-   -webkit-transform: rotate(180deg);
+    transform: rotate(180deg); 
     top:-175px;
     left: 15px;
 }
 .ray2 {
     height:100px;
     width:8px;
-   -webkit-transform: rotate(220deg);
+    transform: rotate(220deg);
     top:-90px;
     left: 75px;
 }
 .ray3 {
     height:170px;
     width:50px;
-   -webkit-transform: rotate(250deg);
+   transform: rotate(250deg);
     top:-80px;
     left: 100px;
 }
 .ray4 {
     height:120px;
     width:14px;
-   -webkit-transform: rotate(305deg);
+   transform: rotate(305deg);
     top:30px;
     left: 100px;
 }
 .ray5 {
     height:140px;
     width:30px;
-   -webkit-transform: rotate(-15deg);
+   transform: rotate(-15deg);
     top:60px;
     left: 40px;
 }
 .ray6 {
     height:90px;
     width:50px;
-   -webkit-transform: rotate(30deg);
+   transform: rotate(30deg);
     top:60px;
     left: -40px;
 }
 .ray7 {
     height:180px;
     width:10px;
-   -webkit-transform: rotate(70deg);
+   transform: rotate(70deg);
     top:-35px;
     left: -40px;
 }
 .ray8 {
     height:120px;
     width:30px;
-   -webkit-transform: rotate(100deg);
+   transform: rotate(100deg);
     top:-45px;
     left:-90px;
 }
 .ray9 {
     height:80px;
     width:10px;
-   -webkit-transform: rotate(120deg);
+   transform: rotate(120deg);
     top:-65px;
     left:-60px;
 }
 .ray10 {
     height:190px;
     width:23px;
-   -webkit-transform: rotate(150deg);
+   transform: rotate(150deg);
     top:-185px;
     left: -60px;
 }
 
 @keyframes ray_anim { 
-    0% { -webkit-transform: rotate(0deg); transform: rotate(0deg);}    
-100% { -webkit-transform: rotate(360deg); transform: rotate(360deg);}
-}
-@-webkit-keyframes ray_anim { 
-		0% { -webkit-transform: rotate(0deg); transform: rotate(0deg);}    
-    100% { -webkit-transform: rotate(360deg); transform: rotate(360deg);}
+    0% { transform: rotate(0deg);}    
+100% { transform: rotate(360deg);}
 }
