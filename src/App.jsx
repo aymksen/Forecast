@@ -50,7 +50,7 @@ function App() {
     
     if(weather.temp <= threshold && (weather.icon).includes('d')) return "col2"
     if(weather.temp >= threshold && (weather.icon).includes('d')) return "col1"
-    if(!(weather.icon).includes('d')) return "col5"
+    if(!(weather.icon).includes('d')) return "col3"
   }
 
   

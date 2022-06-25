@@ -4,20 +4,17 @@
 @tailwind components;
 @tailwind utilities;
 *{
-    --col1: #e92907;
-    --col2: #d8771d;
-
-    --col3: #06b6d4;
-    --col4: #1D4ED8;
     
-    --col5: #7d98d3;
-    --col6: #031853;
 
-    --col7: #405fa3;
-    --col8: #041647;
+    --col1: #cc0707;
+    --col2: #d87a00;
 
-    --col9: #000000;
-    --col10: #141127;
+    --col3: #0d4fb3;
+    --col4: #005ce6;
+
+    --col5: #000424;
+    --col6: #000000;
+
     
 }
 @layer base{
@@ -36,12 +33,6 @@
     }
     .col3{
         background: linear-gradient(to bottom right, var(--col5) ,var(--col6));
-    }
-    .col4{
-        background: linear-gradient(to bottom right, var(--col7) ,var(--col8));
-    }
-    .col5{
-        background: linear-gradient(to bottom right, var(--col9) ,var(--col10));
     }
     .bkg{
         
