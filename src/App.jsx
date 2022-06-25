@@ -15,7 +15,7 @@ import Sunny from "./components/Effects/Sunny/Sunny";
 import getFormattedWeatherData from "./services/weatherService";
 
 function App() {
-  const [query, setQuery] = useState({ q: "casablanca" });
+  const [query, setQuery] = useState({ q: "" });
   const [units, setUnits] = useState("metric");
   const [weather, setWeather] = useState(null);
 
@@ -35,11 +35,12 @@ function App() {
   }, [query, units]);
 
   const formatBackground = () =>{
-    if(!weather) return <div/>
+    if(!weather) return <Cloud/> 
     if(weather.details === "Clouds") return <Cloud/> 
     if(weather.details === "Clear") return <Sunny /> 
     if(weather.details === "Snow") return <Snow />
     if(weather.details === "Haze") return <Cloud2/>
+    if(weather.details === "Rain") return <Rain/>
   }
   
   const formatBackgrounds = () =>{
