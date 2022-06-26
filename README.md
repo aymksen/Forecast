@@ -1,2 +1,3 @@
 
-![Tw Weather - Google Chrome 6_26_2022 10_25_19 AM](https://user-images.githubusercontent.com/76121581/175815154-1dea1121-cd2d-4ae7-aca2-d9e4896683bd.png)
+
+![ezgif-1-14442b4138](https://user-images.githubusercontent.com/76121581/175815554-a149faf2-895b-4b4e-92f7-a161ac24ea1a.gif)
