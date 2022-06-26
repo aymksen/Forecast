@@ -57,6 +57,9 @@ function App() {
     if(weather.details === "Snow") return <Snow />
     if(weather.details === "Haze") return <Cloud2/>
     if(weather.details === "Rain") return <Rain/>
+    if(weather.details === "Drizzle") return <Rain/>
+    if(weather.details === "Fog") return <Cloud2/>
+    if(weather.details === "Thunderstorm") return <Rain/>
   }
   
 
