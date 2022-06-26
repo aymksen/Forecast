@@ -13,21 +13,9 @@ import Cloud2 from "./components/Effects/Cloud2/Cloud2";
 import Rain from "./components/Effects/Rain/Rain";
 import Sunny from "./components/Effects/Sunny/Sunny";
 import getFormattedWeatherData from "./services/weatherService";
-import gather_data from "./services/data";
 import axios from "axios";
 
 function App() {
-
-  
-  
-
-  
-
-
-
-  
-
- 
   
   const [query, setQuery] = useState({ q: "" });
   const [units, setUnits] = useState("metric");
