@@ -81,8 +81,8 @@ function App() {
       <div className={`bkg ${formatBackgrounds()}`}>
       <div>{formatBackground()}</div>
       </div>
-      <div className="mx-auto py-8 max-w-screen-md px-32  h-fit shadow-xl shadow-black-400 ff">
-        <div className={`color-blue ${formatBackgrounds()}`}>
+      <div className="mx-auto sm:py-6 max-w-screen-md sm:px-32 px-4  h-fit shadow-xl shadow-black-400 ff">
+        <div className={`my-2 py-8 color-blue ${formatBackgrounds()}`}>
           <div>{formatBackground()}</div>
         </div>
 

@@ -55,30 +55,28 @@ function TemperatueAndDetails({
           </div>
         </div>
       </div>
-      <div className="flex flex-row items-center justify-center space-x-2 text-white text-sm py-3">
+      <div className="flex flex-wrap sm:flex-row items-center justify-center space-x-2 text-white text-sm py-3">
+        
         <UilSun />
         <p className="font-light">
-          Rise:<span className="font-medium ml-1">{formatToLocalTime(sunrise,timezone , 'hh:mm a')}</span>
+          Rise:<span className="font-medium ml-1 truncate">{formatToLocalTime(sunrise,timezone , 'hh:mm a')}</span>
         </p>
         <p className="font-ligh">|</p>
-
         <UilSunset />
         <p className="font-light">
-          Set:<span className="font-medium ml-1">{formatToLocalTime(sunset,timezone , 'hh:mm a')}</span>
+          Set:<span className="font-medium ml-1 truncate">{formatToLocalTime(sunset,timezone , 'hh:mm a')}</span>
         </p>
-        <p className="font-ligh">|</p>
-
+        <p className="font-ligh  sm:mr-0">|</p>
         <UilArrowUp />
         <p className="font-light">
-          High:<span className="font-medium ml-1">{`${temp_max.toFixed()}°`}</span>
+          High:<span className="font-medium ml-1 truncate">{`${temp_max.toFixed()}°`}</span>
         </p>
-        <p className="font-ligh">|</p>
+        <p className="font-ligh ">|</p>
 
         <UilArrowDown />
         <p className="font-light">
-          Low:<span className="font-medium ml-1">{`${temp_min.toFixed()}°`}</span>
+          Low:<span className="font-medium ml-1 truncate">{`${temp_min.toFixed()}°`}</span>
         </p>
-        <p className="font-ligh">|</p>
       </div>
     </div>
   );
