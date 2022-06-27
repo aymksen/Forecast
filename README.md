@@ -8,7 +8,7 @@
 <img align="center" src="https://user-images.githubusercontent.com/76121581/175816112-fceeb5fe-e4c2-43e9-9f77-524293c4d1ac.gif" alt="gif" width="1000"/>
 <h2 align="center">Night</h2>
 <img align="center" src="https://user-images.githubusercontent.com/76121581/175816298-326ab775-7ace-439b-8ffd-3b5ee576c309.gif" alt="gif" width="1000"/>
-<h2 align="center">Days above 32°C</h2>
+<h2 align="center">Above 32°C</h2>
 <img align="center" src="https://user-images.githubusercontent.com/76121581/175867758-8e978043-9718-4e31-8b6b-8d4dd407d9fb.gif" alt="gif" width="1000"/>
 <h2 align="center">Sunny</h2>
 <img align="center" src="https://user-images.githubusercontent.com/76121581/175869950-434c900e-1454-4c16-8d8d-cecc3118956b.png" alt="png" width="1000"/>
