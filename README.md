@@ -10,8 +10,8 @@
 <img align="center" src="https://user-images.githubusercontent.com/76121581/175816298-326ab775-7ace-439b-8ffd-3b5ee576c309.gif" alt="gif" width="1000"/>
 <h2 align="center">Days above 32°C</h2>
 <img align="center" src="https://user-images.githubusercontent.com/76121581/175867758-8e978043-9718-4e31-8b6b-8d4dd407d9fb.gif" alt="gif" width="1000"/>
-<h2 align="center">Sunny/h2>
+<h2 align="center">Sunny</h2>
 <img align="center" src="https://user-images.githubusercontent.com/76121581/175869950-434c900e-1454-4c16-8d8d-cecc3118956b.png" alt="png" width="1000"/>
-<h2 align="center">Mobile devices/h2>
+<h2 align="center">Mobile devices</h2>
 <img align="center" src="https://user-images.githubusercontent.com/76121581/175870261-5ec14988-b71d-47de-81a9-64c15d744c93.gif" alt="gif" width="1000"/>
 
