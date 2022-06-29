@@ -1,5 +1,7 @@
 <h1 align="center">Screenshots</h1>
 
+<img align="center" src="https://user-images.githubusercontent.com/76121581/176559517-8ebf84e9-6ea1-403d-b418-c349dba61355.png" alt="gif" width="1000"/>
+
 <h2 align="center">Clouds</h2>
   <img align="center" src="https://user-images.githubusercontent.com/76121581/175815554-a149faf2-895b-4b4e-92f7-a161ac24ea1a.gif" alt="gif" width="1000"/>
 <h2 align="center">Rain</h2>
